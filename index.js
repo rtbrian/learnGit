@@ -37,17 +37,30 @@ console.log("\nadd:",add,"\nsubtract:",subtract,"\ndivide:",divide,"\ntimes:",ti
 sum(6,4)*/
 
 
-function mylicense(name,age){
+// function mylicense(name,age){
 
-   if(age<18 && age>72)
-   {
-    console.log(name ,"Not applicable for a license");
-   } 
-   else{
-    console.log(name ,"Elligible for a lisense");
-   }
+//    if(age<18 && age>72)
+//    {
+//     console.log(name ,"Not applicable for a license");
+//    } 
+//    else{
+//     console.log(name ,"Elligible for a lisense");
+//    }
 
+// }
+
+// mylicense("Brian",19);
+
+
+
+function generateNumberPattern(num){
+for(let i=1;i<=num;i++){
+    let row = '';
+    for(let j = 1; j<=i; j++){
+        row+=i
+    }
+    console.log(row);
+ }
 }
-
-mylicense("Brian",19);
+generateNumberPattern(5);
 
