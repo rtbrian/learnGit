@@ -29,10 +29,25 @@ let subtract= a-b;
 
 console.log("\nadd:",add,"\nsubtract:",subtract,"\ndivide:",divide,"\ntimes:",times);*/
 
-function sum(a,b){
+/*function sum(a,b){
     let sum=a+b;
     console.log(sum);
 }
 
-sum(6,4)
+sum(6,4)*/
+
+
+function mylicense(name,age){
+
+   if(age<18 && age>72)
+   {
+    console.log(name ,"Not applicable for a license");
+   } 
+   else{
+    console.log(name ,"Elligible for a lisense");
+   }
+
+}
+
+mylicense("Brian",19);
 
