@@ -4,9 +4,9 @@ myname = "mwangi";
 
 myname=5;
 
-console.log(myname);
+console.log(myname);*/
 
-console.log(mynum);*/
+//console.log(mynum);
 let mynum=6;
 if (mynum===5)
 {
