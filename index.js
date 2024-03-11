@@ -27,4 +27,4 @@ let divide= a/b;
 let add= a+b;
 let subtract= a-b;
 
-console.log(add,subtract,divide,times);
+console.log("\nadd:",add,"\nsubtract:",subtract,"\ndivide:",divide,"\ntimes:",times);
